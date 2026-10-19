@@ -1,0 +1,114 @@
+{
+  "app": {
+    "name": "رزرویار",
+    "tagline": "پنل مدیریت رزروها"
+  },
+  "common": {
+    "cancel": "انصراف",
+    "close": "بستن",
+    "save": "ذخیره",
+    "logout": "خروج",
+    "language": "زبان",
+    "noResults": "نتیجه‌ای یافت نشد",
+    "noResultsHint": "عبارت جست‌وجو یا فیلتر را تغییر دهید.",
+    "all": "همه"
+  },
+  "auth": {
+    "title": "ورود به پنل",
+    "subtitle": "برای مدیریت رزروها وارد حساب خود شوید.",
+    "username": "ایمیل یا نام کاربری",
+    "usernamePlaceholder": "admin@example.com",
+    "password": "رمز عبور",
+    "passwordPlaceholder": "رمز عبور خود را وارد کنید",
+    "showPassword": "نمایش رمز عبور",
+    "hidePassword": "پنهان کردن رمز عبور",
+    "submit": "ورود",
+    "submitting": "در حال ورود...",
+    "demoTitle": "اطلاعات ورود آزمایشی",
+    "demoUsername": "نام کاربری:",
+    "demoPassword": "رمز عبور:",
+    "fillDemo": "پر کردن خودکار",
+    "welcome": "خوش آمدید، {{name}}!",
+    "loggedOut": "با موفقیت خارج شدید.",
+    "heroTitle": "مدیریت ساده و سریع رزروها",
+    "heroText": "همه نوبت‌ها، مشتریان و وضعیت‌ها را در یک نگاه ببینید و کنترل کنید.",
+    "errors": {
+      "usernameRequired": "ایمیل یا نام کاربری را وارد کنید.",
+      "usernameInvalid": "ایمیل وارد شده معتبر نیست.",
+      "passwordRequired": "رمز عبور را وارد کنید.",
+      "passwordShort": "رمز عبور باید حداقل {{min}} کاراکتر باشد.",
+      "invalidCredentials": "نام کاربری یا رمز عبور اشتباه است."
+    }
+  },
+  "dashboard": {
+    "title": "مدیریت رزروها",
+    "subtitle": "رزروهای مجموعه را مشاهده، جست‌وجو و مدیریت کنید.",
+    "newReservation": "ثبت رزرو جدید",
+    "stats": {
+      "total": "کل رزروها",
+      "pending": "در انتظار تأیید",
+      "confirmed": "تأیید شده",
+      "completed": "انجام شده",
+      "cancelled": "لغو شده"
+    },
+    "searchPlaceholder": "جست‌وجوی نام یا شماره تماس مشتری...",
+    "filterLabel": "فیلتر وضعیت",
+    "resultsCount": "{{count}} رزرو"
+  },
+  "reservation": {
+    "fields": {
+      "id": "کد رزرو",
+      "customerName": "نام مشتری",
+      "phone": "شماره تماس",
+      "service": "نوع خدمت",
+      "date": "تاریخ",
+      "time": "ساعت",
+      "status": "وضعیت",
+      "notes": "توضیحات",
+      "createdAt": "تاریخ ثبت",
+      "actions": "عملیات"
+    },
+    "status": {
+      "pending": "در انتظار",
+      "confirmed": "تأیید شده",
+      "completed": "انجام شده",
+      "cancelled": "لغو شده"
+    },
+    "services": {
+      "haircut": "اصلاح مو",
+      "coloring": "رنگ مو",
+      "manicure": "مانیکور",
+      "skincare": "پاکسازی پوست",
+      "massage": "ماساژ",
+      "consultation": "مشاوره"
+    },
+    "viewDetails": "مشاهده جزئیات",
+    "details": "جزئیات رزرو",
+    "changeStatus": "تغییر وضعیت",
+    "statusUpdated": "وضعیت رزرو به‌روزرسانی شد.",
+    "noNotes": "توضیحی ثبت نشده است."
+  },
+  "form": {
+    "title": "ثبت رزرو جدید",
+    "subtitle": "اطلاعات مشتری و زمان رزرو را وارد کنید.",
+    "customerNamePlaceholder": "مثلاً: سارا احمدی",
+    "phonePlaceholder": "09123456789",
+    "servicePlaceholder": "یک خدمت انتخاب کنید",
+    "notesPlaceholder": "توضیحات اختیاری...",
+    "submit": "ثبت رزرو",
+    "success": "رزرو «{{name}}» با موفقیت ثبت شد.",
+    "fixErrors": "لطفاً خطاهای فرم را برطرف کنید.",
+    "optional": "(اختیاری)",
+    "errors": {
+      "nameRequired": "نام مشتری الزامی است.",
+      "nameShort": "نام باید حداقل ۳ کاراکتر باشد.",
+      "phoneRequired": "شماره تماس الزامی است.",
+      "phoneInvalid": "شماره موبایل معتبر نیست (مثال: 09123456789).",
+      "serviceRequired": "نوع خدمت را انتخاب کنید.",
+      "dateRequired": "تاریخ رزرو الزامی است.",
+      "datePast": "تاریخ رزرو نمی‌تواند در گذشته باشد.",
+      "timeRequired": "ساعت رزرو الزامی است.",
+      "timePast": "این ساعت گذشته است."
+    }
+  }
+}

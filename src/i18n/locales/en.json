@@ -1,0 +1,114 @@
+{
+  "app": {
+    "name": "Reservio",
+    "tagline": "Reservation management"
+  },
+  "common": {
+    "cancel": "Cancel",
+    "close": "Close",
+    "save": "Save",
+    "logout": "Log out",
+    "language": "Language",
+    "noResults": "No results found",
+    "noResultsHint": "Try changing your search or filter.",
+    "all": "All"
+  },
+  "auth": {
+    "title": "Sign in",
+    "subtitle": "Sign in to manage your reservations.",
+    "username": "Email or username",
+    "usernamePlaceholder": "admin@example.com",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "submit": "Sign in",
+    "submitting": "Signing in...",
+    "demoTitle": "Demo credentials",
+    "demoUsername": "Username:",
+    "demoPassword": "Password:",
+    "fillDemo": "Autofill",
+    "welcome": "Welcome, {{name}}!",
+    "loggedOut": "You have been logged out.",
+    "heroTitle": "Simple, fast reservation management",
+    "heroText": "See and control every booking, customer and status at a glance.",
+    "errors": {
+      "usernameRequired": "Enter your email or username.",
+      "usernameInvalid": "The email address is not valid.",
+      "passwordRequired": "Enter your password.",
+      "passwordShort": "Password must be at least {{min}} characters.",
+      "invalidCredentials": "Incorrect username or password."
+    }
+  },
+  "dashboard": {
+    "title": "Reservations",
+    "subtitle": "View, search and manage your reservations.",
+    "newReservation": "New reservation",
+    "stats": {
+      "total": "Total",
+      "pending": "Pending",
+      "confirmed": "Confirmed",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "searchPlaceholder": "Search customer name or phone...",
+    "filterLabel": "Status filter",
+    "resultsCount": "{{count}} reservations"
+  },
+  "reservation": {
+    "fields": {
+      "id": "Reservation ID",
+      "customerName": "Customer name",
+      "phone": "Phone",
+      "service": "Service",
+      "date": "Date",
+      "time": "Time",
+      "status": "Status",
+      "notes": "Notes",
+      "createdAt": "Created at",
+      "actions": "Actions"
+    },
+    "status": {
+      "pending": "Pending",
+      "confirmed": "Confirmed",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "services": {
+      "haircut": "Haircut",
+      "coloring": "Hair coloring",
+      "manicure": "Manicure",
+      "skincare": "Skin care",
+      "massage": "Massage",
+      "consultation": "Consultation"
+    },
+    "viewDetails": "View details",
+    "details": "Reservation details",
+    "changeStatus": "Change status",
+    "statusUpdated": "Reservation status updated.",
+    "noNotes": "No notes."
+  },
+  "form": {
+    "title": "New reservation",
+    "subtitle": "Enter the customer details and booking time.",
+    "customerNamePlaceholder": "e.g. Sara Ahmadi",
+    "phonePlaceholder": "09123456789",
+    "servicePlaceholder": "Select a service",
+    "notesPlaceholder": "Optional notes...",
+    "submit": "Create reservation",
+    "success": "Reservation for “{{name}}” was created.",
+    "fixErrors": "Please fix the errors in the form.",
+    "optional": "(optional)",
+    "errors": {
+      "nameRequired": "Customer name is required.",
+      "nameShort": "Name must be at least 3 characters.",
+      "phoneRequired": "Phone number is required.",
+      "phoneInvalid": "Invalid mobile number (e.g. 09123456789).",
+      "serviceRequired": "Please select a service.",
+      "dateRequired": "Date is required.",
+      "datePast": "Date cannot be in the past.",
+      "timeRequired": "Time is required.",
+      "timePast": "This time has already passed."
+    }
+  }
+}
