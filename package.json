@@ -11,6 +11,7 @@
     "format:check": "prettier --check .",
     "typecheck": "tsc -b",
     "preview": "vite preview",
+    "deploy": "npm run build && cp dist/index.html dist/200.html && surge dist reservation-dashboard-shahab.surge.sh",
     "prepare": "husky"
   },
   "dependencies": {
@@ -31,6 +32,7 @@
     "oxlint": "^1.88.0",
     "prettier": "^3.9.10",
     "prettier-plugin-tailwindcss": "^0.8.1",
+    "surge": "^0.46.0",
     "tailwindcss": "^4.3.3",
     "typescript": "~7.0.2",
     "vite": "^8.3.4"
